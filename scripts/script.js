@@ -9,6 +9,8 @@ $(document).ready(function(){
 	$('#ftc').click(function(){slideClassToggle(this);});
 	/* Apply click to fas id */
 	$('#fas').click(function(){slideClassToggle(this);});
+	/* Apply click to academy id */
+	$('#academy').click(function(){slideClassToggle(this);});
 	/* Apply click to college id */
 	$('#college').click(function(){slideClassToggle(this);});
 	
