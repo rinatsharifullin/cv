@@ -1,0 +1,46 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#esb, 
+#engineer, 
+#locksmith,
+#ftc,
+#fas,
+#academy,
+#college{
+	
+}
+#esb+div, 
+#engineer+div, 
+#locksmith+div, 
+#ftc+div,
+#fas+div,
+#academy+div,
+#college+div
+{
+	border:1px solid #CCC;
+	box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+	border-radius:10px;
+	display:none;
+}
+.fas{
+	border:1px solid #CCC;
+	padding:5px 6px;
+	margin-right:10px;
+	border-radius:20px;
+}
+h3{
+	background-color:white ;
+	color:#707070;
+	font-size:1em;
+	cursor:pointer;
+}
+h3:hover{
+	color:black;
+}
+h3:hover>i{
+	box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+	color:black;
+}
